@@ -6,8 +6,9 @@
 use 5.14.1;
 use warnings;
 
-my ($coloredChar, $continueInt, $wood, $charNum, $gold, $orderNum, $total);
-my ($name, $custID);
+my ($coloredChar, $custID, $continueInt, $wood, $charNum, $gold, $orderNum, $total);
+my ($name);
+
 sub main {
      use constant YES => 1;
      setContinueInt();
